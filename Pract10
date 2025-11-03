@@ -1,0 +1,76 @@
+Class Book
+internal class Program
+{
+     static void Main(string[] args)
+     {
+         Book book1 = new Book("Отцы и дети", 133);
+         Book book2 = new Book("1958");
+         Book book3 = new Book();
+         
+         book1.Read();
+         book2.Read();
+         book3.Read();
+     }
+ }
+
+
+Class Employee
+internal class Program
+{
+    static void Main(string[] args)
+    {
+        Employee employee1 = new Employee("Олег", 40000);
+        Employee employee2 = new Employee("Игорь");
+
+        employee1.Work();
+        employee2.Work();
+    }
+}
+
+
+Class Device
+internal class Program
+{
+    static void Main(string[] args)
+    {
+        Device device = new Device(" Iphone");
+        Laptop laptop = new Laptop(" Redmi",32,20);
+
+        device.PowerOn();
+        laptop.Work();
+    }
+}
+
+
+Class Point
+internal class Program
+{
+    static void Main(string[] args)
+    {
+        Point point1 = new Point(5.9,9.5);
+        Point point2 = new Point(8.6);
+        Point point3 = new Point();
+
+        point1.Show();
+        point2.Show();
+        point3.Show();
+    }
+}
+
+
+Class Animal
+internal class Program
+{
+    static void Main(string[] args)
+    {
+        Animal animal1 = new Animal("Матрос");
+        Animal animal2 = new Animal("Шарик");
+        Cat cat1 = new Cat("Матрос", 9);
+        Cat cat2 = new Cat("Шарик");
+
+        animal1.Speak();
+        cat1.Meow();
+        animal2.Speak();
+        cat2.Meow();
+    }
+}
